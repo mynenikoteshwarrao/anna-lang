@@ -1,7 +1,7 @@
 name: New Issue
 description: Description
 title: "Title "
-labels: ["bhai-lang"]
+labels: ["anna-lang"]
 body:
   - type: markdown
     attributes:
@@ -24,7 +24,7 @@ body:
       options:
         - Design
         - Develop
-        - Bhai Lang
+        - anna Lang
         - UI/UX
         - Other
     validations:
@@ -44,7 +44,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/DulLabs/bhai-lang/blob/develop/README.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/DulLabs/anna-lang/blob/develop/README.md)
       options:
-        - label: I follow [Contributing Guidelines](https://github.com/DulLabs/bhai-lang/blob/develop/README.md) & [Code of conduct](https://github.com/DulLabs/bhai-lang/blob/develop/README.md) of bhai-lang.
+        - label: I follow [Contributing Guidelines](https://github.com/DulLabs/anna-lang/blob/develop/README.md) & [Code of conduct](https://github.com/DulLabs/anna-lang/blob/develop/README.md) of anna-lang.
           required: true

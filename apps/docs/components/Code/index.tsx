@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import interpreter from "bhai-lang-interpreter";
+import interpreter from "anna-lang-interpreter";
 
 import { sendEvents } from "../../helpers";
 
@@ -9,25 +9,25 @@ import Terminal from "./Terminal";
 
 
 const initialCode = `
-hi bhai
- bol bhai "Hello World";
+hi anna
+ bol anna "Hello World";
  
-  bhai ye hai a = 3;
-  bhai ye hai b = 0;
+  anna ye hai a = 3;
+  anna ye hai b = 0;
 
-  jab tak bhai (b < 5) {
-    bol bhai b;
+  jab tak anna (b < 5) {
+    bol anna b;
 
-    agar bhai (b == a) {
-      bol bhai "b is equal to a";
-    } nahi to bhai (b == 0) {
-      bol bhai "b is equal to zero";
+    agar anna (b == a) {
+      bol anna "b is equal to a";
+    } nahi to anna (b == 0) {
+      bol anna "b is equal to zero";
     }
 
     b += 1;
   }
 
-bye bhai
+bye anna
 `;
 
 const Code = (props: Props) => {
